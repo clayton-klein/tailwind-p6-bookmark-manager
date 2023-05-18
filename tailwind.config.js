@@ -17,6 +17,10 @@ module.exports = {
       fontFamily: {
         sans: ["Rubik", "sans-serif"],
       },
+      // dots separator for the download cards
+      backgroundImage: () => ({
+        dots: "url('../images/bg-dots.svg')",
+      }),
     },
   },
   plugins: [],

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -482,5 +482,73 @@
         </div>
       </div>
     </section>
+    <!-- Newsletter section -->
+    <section id="newsletter" class="bg-softBlue">
+      <div class="max-w-lg py-16 mx-auto">
+        <p
+          class="mb-6 text-lg tracking-widest text-center text-white uppercase"
+        >
+          35,000+ Already joined
+        </p>
+        <h2
+          class="px-3 mb-6 text-3xl font-semibold text-center text-white md:text-4xl"
+        >
+          Stay up-to-date with what we're doing
+        </h2>
+        <!-- Newsletter form -->
+        <form
+          class="flex flex-col items-start justify-center max-w-2xl px-6 mx-auto space-y-6 text-base md:space-y-0 md:flex-row md:space-x-4 md:px-0"
+        >
+          <div
+            class="flex flex-col items-center justify-between mx-auto md:flex-row md:mx-0"
+          >
+            <input
+              type="email"
+              class="flex px-4 pt-3 pb-2 mb-4 border-white rounded-lg min-w-min border-1 focus:outline-none md:mr-3 md:mb-0"
+              placeholder="Enter your email address"
+            />
+
+            <input
+              type="submit"
+              class="inline-flex px-6 py-3 font-semibold text-center text-white duration-200 transform rounded-lg cursor-pointer focus:outline-none bg-softRed hover:scale-95"
+              value="Contact Us"
+            />
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="py-16 bg-veryDarkBlue">
+      <div
+        class="container flex flex-col items-center justify-between px-6 mx-auto space-y-16 md:flex-row md:space-y-0"
+      >
+        <!-- Logo/menu -->
+        <div
+          class="flex flex-col items-center justify-between space-y-8 text-lg font-light md:flex-row md:space-y-0 md:space-x-14 text-grayishBlue"
+        >
+          <img src="./images/logo-bookmark-footer.svg" alt="" class="mb-1" />
+          <a href="#features" class="uppercase hover:text-softRed">features</a>
+          <a href="#download" class="uppercase hover:text-softRed">download</a>
+          <a href="#faq" class="uppercase hover:text-softRed">faq</a>
+        </div>
+        <!-- Social icons -->
+        <div class="flex space-x-10">
+          <a href="#">
+            <img
+              src="./images/icon-facebook.svg"
+              alt="facebook logo"
+              class="h-6 ficon"
+            />
+          </a>
+          <a href="#">
+            <img
+              src="./images/icon-twitter.svg"
+              alt="twitter logo"
+              class="h-6 ficon"
+            />
+          </a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
